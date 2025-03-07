@@ -14,8 +14,8 @@ function addTask() {
   }
 }
 
-function deleteTask(event) {
-  const clickedElement = event.target;
+{
+  const clickedElement = event.target;function deleteTask(event) 
   if (clickedElement.classList.contains("fa-trash")) {
     const listItem = clickedElement.parentElement.parentElement;
     todoList.removeChild(listItem);
